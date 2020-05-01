@@ -1,0 +1,13 @@
+﻿@page
+<html>
+<body>
+    <h1>Predict COVID-19 deaths</h1>
+    <p>Enter the number of cases:</p>
+    <input id="noCases" />
+    <input type="button" value="Predict Deaths" onclick="predictDeaths()" />
+    <p>Number of prediected deaths:</p>
+    <p id="noDeaths"></p>
+    <script src="https://cdn.jsdelivr.net/npm/@@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+    <script src="js/tensorflowjs.js"></script>
+</body>
+</html>
